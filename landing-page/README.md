@@ -1,8 +1,3 @@
-# Landing-Page-Use-React
-
-#Lhttps://www.figma.com/file/U9zndOcxHzVLdZL0cGCLAV/Free-Landing-Page-UI-Kit-(v1.0)-(Community)?node-id=31%3A478
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
