@@ -1,10 +1,11 @@
 import './App.css';
 import React from 'react';
-import appStoreIcon from '../src/img/appStoreIcon.svg'
-import googlePlayIcon from '../src/img/googlePlayIcon.svg'
-import twoPhone from '../src/img/twoPhone.png'
-import iconCycleGreen from '../src/img/iconCycleGreen.svg'
-import dotBackground from '../src/img/dotBackground.svg'
+import appStoreIcon from './img/appStoreIcon.svg'
+import googlePlayIcon from './img/googlePlayIcon.svg'
+import twoPhone from './img/twoPhone.png'
+import iconCycleGreen from './img/iconCycleGreen.svg'
+import dotBackground from './img/dotBackground.svg'
+import subBgOrange from './img/subBgOrange.png'
 
 function Button(props) {
   const {content} = props
@@ -27,16 +28,17 @@ class HomePage extends React.Component {
             <p className='sub-title'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam maximus ut risus id malesuada. Etiam feugiat dolor commodo imperdiet sodales.</p> <br/>
             <Button content="Dowload Now"/>
             <div className='app-icon'>
-              <img src={appStoreIcon}/>
-              <img src={googlePlayIcon} />
+              <img className='appStore-icon' src={appStoreIcon}/>
+              <img className='googlePlay-icon' src={googlePlayIcon} />
             </div>
           </div>
           <div className='img-content'>
-            <img className='dot-icon' src={dotBackground}/>
+              <img className='dot-icon' src={dotBackground}/>
               <img className='cycle-icon' src={iconCycleGreen}/>
-              <img src={twoPhone}/>
+              <img className='main-img' src={twoPhone}/>
           </div>
         </div>
+        <img className='sub-bg-orange' src={subBgOrange} />
       </div>
     );
   }

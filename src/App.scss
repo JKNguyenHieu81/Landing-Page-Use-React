@@ -22,8 +22,6 @@ body {
 
 .dowload-btn:hover {
   background: #a34302;
-  width: 137px;
-  height: 43px;
 }
 
 .section-container {
@@ -31,6 +29,12 @@ body {
   width: 1370.5px;
   height: 769.42px;
   margin-left: 260px;
+
+  .sub-bg-orange {
+    z-index: -10;
+    position: relative;
+    bottom: 538px;
+  }
 
   .header-element {
     display: flex;
@@ -54,6 +58,7 @@ body {
   margin-top: 70px;
   .text-content {
     width: 471px;
+    margin-right: 220px;
     .title-content {
       line-height: 50px;
       font-size: 46px;
@@ -62,5 +67,35 @@ body {
       line-height: 20px;
       width: 350px;
     }
+    .app-icon {
+      margin-top: 50px;
+      cursor: pointer;
+     .appStore-icon{
+      padding-right: 20px;
+     } 
+    }
+  }
+  .img-content {
+    width: 470px;
+    height: 450px;
+    margin-right: 60px;
+    position: relative;
+    .dot-icon{
+      z-index: 1;
+      position: absolute;
+      margin-bottom: 400px;
+      left: -70px;
+    }
+    .cycle-icon {
+      z-index: 20;
+      position: absolute;
+      bottom: -80px;
+      left: 270px;
+    }
+    .main-img {
+      z-index: 10;
+      position: absolute;
+    }
   }
 }
+
