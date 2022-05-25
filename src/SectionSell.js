@@ -1,9 +1,12 @@
 import React from "react";
+import './sectionSell.css';
 
 class SectionSell extends React.Component {
     render() {
         return(
-            <h2>HieuYeuNgoc</h2>
+            <div className="section-sell">
+                <h2>Hieu Hulk</h2>
+            </div>
         );
     }
 }

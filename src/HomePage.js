@@ -6,6 +6,7 @@ import twoPhone from './img/twoPhone.png'
 import iconCycleGreen from './img/iconCycleGreen.svg'
 import dotBackground from './img/dotBackground.svg'
 import subBgOrange from './img/subBgOrange.png'
+import describeFirst from './img/describeFirst.jpg'
 
 function Button(props) {
   const {content} = props
@@ -13,6 +14,12 @@ function Button(props) {
     <button className='dowload-btn'>{content}</button>
   )
 }
+
+
+// function SectionSell(props) {
+//   const {intro, header, describe} = props
+// }
+
 
 class HomePage extends React.Component {
   render() {
@@ -39,6 +46,9 @@ class HomePage extends React.Component {
           </div>
         </div>
         <img className='sub-bg-orange' src={subBgOrange} />
+        <div className='section-intro'>
+          <img src={describeFirst}/>
+        </div>
       </div>
     );
   }

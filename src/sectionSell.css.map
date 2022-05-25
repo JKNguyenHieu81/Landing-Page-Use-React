@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAC,cAAI;AAEZ,AAAA,aAAa,CAAC;EACV,SAAS,EAAE,IAAI;CAClB",
+    "sources": [
+        "sectionSell.scss"
+    ],
+    "names": [],
+    "file": "sectionSell.css"
+}
