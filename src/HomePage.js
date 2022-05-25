@@ -3,7 +3,7 @@ import React from 'react';
 import appStoreIcon from './img/appStoreIcon.svg'
 import googlePlayIcon from './img/googlePlayIcon.svg'
 import twoPhone from './img/twoPhone.png'
-import iconCycleGreen from './img/iconCycleGreen.svg'
+import yellowCycleIcon from './img/yellowCycleIcon.svg'
 import dotBackground from './img/dotBackground.svg'
 import subBgOrange from './img/subBgOrange.png'
 import describeFirst from './img/describeFirst.jpg'
@@ -41,7 +41,7 @@ class HomePage extends React.Component {
           </div>
           <div className='img-content'>
               <img className='dot-icon' src={dotBackground}/>
-              <img className='cycle-icon' src={iconCycleGreen}/>
+              <img className='cycle-icon' src={yellowCycleIcon}/>
               <img className='main-img' src={twoPhone}/>
           </div>
         </div>

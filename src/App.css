@@ -108,12 +108,16 @@ body {
 .content-section .img-content .cycle-icon {
   z-index: 20;
   position: absolute;
-  bottom: -80px;
-  left: 270px;
+  bottom: -164px;
+  left: 190px;
 }
 
 .content-section .img-content .main-img {
   z-index: 10;
   position: absolute;
+}
+
+.content-section .section-intro {
+  top: 200px;
 }
 /*# sourceMappingURL=App.css.map */
