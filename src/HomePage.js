@@ -1,45 +1,52 @@
-import './App.css';
-import React from 'react';
-import appStoreIcon from './img/appStoreIcon.svg'
-import googlePlayIcon from './img/googlePlayIcon.svg'
-import twoPhone from './img/twoPhone.png'
-import iconCycleGreen from './img/iconCycleGreen.svg'
-import dotBackground from './img/dotBackground.svg'
-import subBgOrange from './img/subBgOrange.png'
-
-function Button(props) {
-  const {content} = props
-  return (
-    <button className='dowload-btn'>{content}</button>
-  )
-}
-
+import "./App.css";
+import React from "react";
+import appStoreIcon from "./img/appStoreIcon.svg";
+import googlePlayIcon from "./img/googlePlayIcon.svg";
+import twoPhone from "./img/twoPhone.png";
+import iconCycleGreen from "./img/iconCycleGreen.svg";
+import dotBackground from "./img/dotBackground.svg";
+import subBgOrange from "./img/subBgOrange.png";
+import SectionStore from "./SectionStore";
+import SectionFeature from "./SectionFeature";
+import featureList from "./FeatureItemText";
+import describeSecond from "./img/describeSecond.png";
+import describeThird from "./img/describeThird.jpg";
+import describeThirdImg from "./img/describeThirdImg.jpg";
+import SectionTestimonial from "./SectionTestimonial";
+import Button from "./Button";
+import Header from "./Header";
+import footerImg from "./img/footerImg.jpg";
 class HomePage extends React.Component {
   render() {
     return (
-      <div className="section-container">
-        <div className='header-element'>
-        <h1 className='brand-name'> 『J』『Y』『K』 </h1>
-        <Button content="Dowload"/>
-        </div>
-        <div className='content-section'>
-          <div className='text-content' style={{color: 'white'}}>
-            <h1 className='title-content'>Sell Digital <br/> Product the <br/> easy-peasy way</h1> <br/>
-            <p className='sub-title'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam maximus ut risus id malesuada. Etiam feugiat dolor commodo imperdiet sodales.</p> <br/>
-            <Button content="Dowload Now"/>
-            <div className='app-icon'>
-              <img className='appStore-icon' src={appStoreIcon}/>
-              <img className='googlePlay-icon' src={googlePlayIcon} />
-            </div>
-          </div>
-          <div className='img-content'>
-              <img className='dot-icon' src={dotBackground}/>
-              <img className='cycle-icon' src={iconCycleGreen}/>
-              <img className='main-img' src={twoPhone}/>
-          </div>
-        </div>
-        <img className='sub-bg-orange' src={subBgOrange} />
-      </div>
+      <>
+        <Header mainImg={twoPhone} sectionType="header" />
+
+        <SectionStore />
+        <SectionFeature
+          subTitleText="Start your business"
+          titleText="Sell your products"
+          descriptionText="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"
+          featureList={featureList[0]}
+          backgroundImg={describeSecond}
+        />
+        <SectionFeature
+          subTitleText="Grow your business"
+          titleText="Market your products"
+          descriptionText="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"
+          featureList={featureList[1]}
+          backgroundImg={describeThird}
+        />
+        <SectionFeature
+          subTitleText="Manage your business"
+          titleText="One simple platform"
+          descriptionText="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"
+          featureList={featureList[2]}
+          backgroundImg={describeThirdImg}
+        />
+        <SectionTestimonial />
+        <Header mainImg={footerImg} />
+      </>
     );
   }
 }
