@@ -4,8 +4,8 @@ import Button from "./Button";
 
 function TestimonialItem(props) {
   return (
-    <div class="testimonial-item-container">
-      <p class="text">
+    <div className="testimonial-item-container">
+      <p className="text-detail">
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
         voluptua. At vero eos et accusam et justo duo dolores
