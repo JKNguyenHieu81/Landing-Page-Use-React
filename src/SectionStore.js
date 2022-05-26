@@ -15,7 +15,6 @@ class SectionStore extends Component {
 nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
 erat, sed diam"
         />
-        ;
       </div>
     );
   }

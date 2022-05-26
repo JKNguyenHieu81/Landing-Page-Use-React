@@ -314,6 +314,8 @@ body {
 }
 
 .section-feature .feature-container .feature-col .feature-item-container p.description-text {
+  width: 285px;
+  height: 195px;
   text-align: right;
   margin-top: 14px;
   font-size: 16px;
