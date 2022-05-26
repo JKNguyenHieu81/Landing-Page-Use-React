@@ -1,8 +1,12 @@
 import { Component } from "react";
 import { SectionText } from "./SectionStore";
+import userAvtOne from '../src/img/userAvtOne.svg'
+import userAvtTwo from '../src/img/userAvtTwo.svg'
+import userAvtThree from '../src/img/userAvtThree.svg'
 import Button from "./Button";
 
 function TestimonialItem(props) {
+  const {src, userName, userLinkSocial} = props;
   return (
     <div className="testimonial-item-container">
       <p className="text-detail">
@@ -13,12 +17,12 @@ function TestimonialItem(props) {
       <hr></hr>
       <div className="testimonial-info-container">
         <div class="testimonial-avatar-container">
-          <img alt="" src=""></img>
+          <img alt="avatar-user" src={src}></img>
         </div>
 
         <div className="testimonial-info">
-          <p className="tesiimonial-name">Rob Hope</p>
-          <p className="website">Onepagelove.com</p>
+          <h5 className="tesiimonial-name">{userName}</h5>
+          <p className="website">{userLinkSocial}</p>
         </div>
       </div>
     </div>
@@ -36,9 +40,9 @@ class SectionTestimonial extends Component {
         <Button content="Download now" />
 
         <div class="testimonial-container">
-          <TestimonialItem />
-          <TestimonialItem />
-          <TestimonialItem />
+          <TestimonialItem src={userAvtOne} userName="Steven He" userLinkSocial="StevenHe.com"/>
+          <TestimonialItem src={userAvtTwo} userName="Jonh Tie" userLinkSocial="JKs.com"/>
+          <TestimonialItem src={userAvtThree} userName="David Hulk" userLinkSocial="Konandev.com"/>
         </div>
       </div>
     );

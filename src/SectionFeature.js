@@ -1,8 +1,5 @@
-//img: describeSecond.png, describeThird.jpg, describeThirdImg.jpg
-//props: subTitleText, titleText, descriptionText, featureList{icons, featureTitle, featureDescription}, backgroundImage
 import { Component } from "react";
 import { SectionText } from "./SectionStore";
-import iconFirst from "./img/IconFirst.svg";
 class SectionFeature extends Component {
   constructor(props) {
     super(props);
@@ -13,7 +10,7 @@ class SectionFeature extends Component {
       titleText,
       descriptionText,
       featureList,
-      backgroundIma,
+      backgroundImg,
     } = this.props;
     const featureItems = featureList.map((item, index) => (
       <FeatureItem

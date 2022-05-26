@@ -14,6 +14,7 @@ import describeThird from "./img/describeThird.jpg";
 import describeThirdImg from "./img/describeThirdImg.jpg";
 import SectionTestimonial from "./SectionTestimonial";
 import Button from "./Button";
+import Footer from "./Footer";
 import Header from "./Header";
 import footerImgVector from "./img/footerImgVector.svg";
 class HomePage extends React.Component {
@@ -45,7 +46,7 @@ class HomePage extends React.Component {
           backgroundImg={describeThirdImg}
         />
         <SectionTestimonial />
-        <Header mainImg={footerImgVector} />
+        <Footer mainImg={footerImgVector} />
       </>
     );
   }

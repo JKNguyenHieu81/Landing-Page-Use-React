@@ -123,8 +123,8 @@ body {
 .content-section .img-content .cycle-icon {
   z-index: 20;
   position: absolute;
-  bottom: -80px;
-  left: 270px;
+  bottom: -164px;
+  left: 190px;
 }
 
 .content-section .img-content .main-img {
@@ -133,6 +133,7 @@ body {
 }
 
 .create-section {
+  width: 1370.5px;
   height: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -141,9 +142,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -206,6 +207,7 @@ body {
 }
 
 .section-feature {
+  width: 1370.5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -336,6 +338,7 @@ body {
 }
 
 .testimonial-section {
+  width: 1370.5px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
