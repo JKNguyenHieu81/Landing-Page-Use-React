@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/JKNguyenHieu81/Landing-Page-Use-React/static/css/main.4fce1793.css",
+    "main.js": "/JKNguyenHieu81/Landing-Page-Use-React/static/js/main.8b25df4e.js",
+    "static/media/footerImgVector.svg": "/JKNguyenHieu81/Landing-Page-Use-React/static/media/footerImgVector.79a68c59af42f883905f860ae49f8fdb.svg",
+    "static/media/describeFirst.jpg": "/JKNguyenHieu81/Landing-Page-Use-React/static/media/describeFirst.2d9fbf7d1d4157c89cb0.jpg",
+    "static/media/describeSecond.png": "/JKNguyenHieu81/Landing-Page-Use-React/static/media/describeSecond.077a7d5e9a105ae0e8f5.png",
+    "static/media/describeThird.jpg": "/JKNguyenHieu81/Landing-Page-Use-React/static/media/describeThird.99dbbf16f6b8ac23b90d.jpg",
+    "static/media/twoPhone.png": "/JKNguyenHieu81/Landing-Page-Use-React/static/media/twoPhone.7b4875688cd360a7cb87.png",
+    "static/media/describeThirdImg.jpg": "/JKNguyenHieu81/Landing-Page-Use-React/static/media/describeThirdImg.d9fee85068ffb645996d.jpg",
+    "static/media/footerBackground.jpg": "/JKNguyenHieu81/Landing-Page-Use-React/static/media/footerBackground.617821e252bd1e4f0391.jpg",
+    "static/media/googlePlayIcon.svg": "/JKNguyenHieu81/Landing-Page-Use-React/static/media/googlePlayIcon.ffa15c85941f4ed71c2ecd94f1d9bf18.svg",
+    "static/media/dotBackground.svg": "/JKNguyenHieu81/Landing-Page-Use-React/static/media/dotBackground.d079b9f156675ee7a901c1543937f317.svg",
+    "static/media/userAvtThree.svg": "/JKNguyenHieu81/Landing-Page-Use-React/static/media/userAvtThree.4e73fb4dde9b92518c5ab2a96d871966.svg",
+    "static/media/appStoreIcon.svg": "/JKNguyenHieu81/Landing-Page-Use-React/static/media/appStoreIcon.4f26030a66778f67e614756a4eb76110.svg",
+    "static/media/userAvtOne.svg": "/JKNguyenHieu81/Landing-Page-Use-React/static/media/userAvtOne.e71c94c0323df236772f2d6df411f2b2.svg",
+    "static/media/userAvtTwo.svg": "/JKNguyenHieu81/Landing-Page-Use-React/static/media/userAvtTwo.997c66b29c9cf389601fef9ca3fc75ce.svg",
+    "static/media/IconFirst.svg": "/JKNguyenHieu81/Landing-Page-Use-React/static/media/IconFirst.a19cfc2f276c96d5396b0d6ef88b0328.svg",
+    "static/media/IconThird.svg": "/JKNguyenHieu81/Landing-Page-Use-React/static/media/IconThird.fc6c860c617d0b215556b05c2b6d2524.svg",
+    "static/media/IconSecond.svg": "/JKNguyenHieu81/Landing-Page-Use-React/static/media/IconSecond.8dc39fc460f2edae226fa4ae343d3168.svg",
+    "static/media/boxMiniIcon.svg": "/JKNguyenHieu81/Landing-Page-Use-React/static/media/boxMiniIcon.9684db6b97f81172d48012ead5d70145.svg",
+    "static/media/unileverMiniIcon.svg": "/JKNguyenHieu81/Landing-Page-Use-React/static/media/unileverMiniIcon.5e7c2e25004532a3d64c3716f519eb4d.svg",
+    "static/media/IconFour.svg": "/JKNguyenHieu81/Landing-Page-Use-React/static/media/IconFour.3da28708437b648e9b1753d6212eceae.svg",
+    "static/media/multiappIcon.svg": "/JKNguyenHieu81/Landing-Page-Use-React/static/media/multiappIcon.775f9b83d1894a86040fdc0fb3d829af.svg",
+    "static/media/percentMiniIcon.svg": "/JKNguyenHieu81/Landing-Page-Use-React/static/media/percentMiniIcon.36cb824507dfb7f15f93564eb34ea982.svg",
+    "static/media/yellowCycleIcon.svg": "/JKNguyenHieu81/Landing-Page-Use-React/static/media/yellowCycleIcon.7538ba3b6078b8783fc002d264537211.svg",
+    "static/media/fileMiniIcon.svg": "/JKNguyenHieu81/Landing-Page-Use-React/static/media/fileMiniIcon.b6b1bf20908d6234cc922cfe0a936cd8.svg",
+    "static/media/createFolderIcon.svg": "/JKNguyenHieu81/Landing-Page-Use-React/static/media/createFolderIcon.fd505c89d9326b4a45194ea010104407.svg",
+    "static/media/clockMiniIcon.svg": "/JKNguyenHieu81/Landing-Page-Use-React/static/media/clockMiniIcon.d01b7fc18f5f5ff7b8c0d05d4b06c549.svg",
+    "static/media/emailMiniIcon.svg": "/JKNguyenHieu81/Landing-Page-Use-React/static/media/emailMiniIcon.7d5a8365978719ca6736367f244c802d.svg",
+    "index.html": "/JKNguyenHieu81/Landing-Page-Use-React/index.html",
+    "static/media/iconCycleGreen.svg": "/JKNguyenHieu81/Landing-Page-Use-React/static/media/iconCycleGreen.87acdef825d48710fe6f1b1922df1474.svg",
+    "main.4fce1793.css.map": "/JKNguyenHieu81/Landing-Page-Use-React/static/css/main.4fce1793.css.map",
+    "main.8b25df4e.js.map": "/JKNguyenHieu81/Landing-Page-Use-React/static/js/main.8b25df4e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fce1793.css",
+    "static/js/main.8b25df4e.js"
+  ]
+}
