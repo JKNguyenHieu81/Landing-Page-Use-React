@@ -1,5 +1,6 @@
 import { Component } from "react";
 import React from "react";
+import twoPhone from "./img/twoPhone.png"
 import appStoreIcon from "./img/appStoreIcon.svg";
 import googlePlayIcon from "./img/googlePlayIcon.svg";
 import yellowCycleIcon from "./img/yellowCycleIcon.svg";
@@ -42,7 +43,7 @@ class Header extends Component {
           <div className="img-content">
             <img className="dot-icon" src={dotBackground} />
             <img className="cycle-icon" src={yellowCycleIcon} />
-            <img className="main-img" src={this.props.mainImg} />
+            <img className="main-img" src={twoPhone} />
           </div>
         </div>
         {this.props.sectionType === "header" && (

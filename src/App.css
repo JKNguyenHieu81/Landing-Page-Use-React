@@ -29,30 +29,26 @@ body {
 
 .header {
   background-image: url(../src/img/backgroundMain.png);
-  background-repeat: no-repeat;
-  height: 700px;
+  height: 770px;
 }
 
 .footer {
   background-image: url(../src/img/footerBackground.jpg);
-  background-repeat: no-repeat;
-  padding-top: 50px;
-  padding-bottom: 100px;
+  padding-top: 90px;
+  padding-bottom: 170px;
   margin: 0;
   height: auto;
 }
 
 .container-page {
-  width: 1370.5px;
-  margin-left: 170px;
-  background-color: white;
+  width: 1349px;
 }
 
 .section-container .sub-bg-orange {
+  width: 1349px;
   z-index: -10;
   position: relative;
-  bottom: 538px;
-  background-color: white;
+  bottom: 528px;
 }
 
 .section-container .header-element {
@@ -136,7 +132,7 @@ body {
 }
 
 .create-section {
-  width: 1370.5px;
+  width: 1349px;
   margin-top: 90px;
   height: 500px;
   display: -webkit-box;
@@ -211,7 +207,7 @@ body {
 }
 
 .section-feature {
-  width: 1370.5px;
+  width: 1349px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -342,7 +338,7 @@ body {
 }
 
 .testimonial-section {
-  width: 1370.5px;
+  width: 1349px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
