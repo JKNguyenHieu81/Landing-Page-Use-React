@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .dowload-btn {
@@ -19,8 +19,8 @@ body {
   color: white;
   cursor: pointer;
   margin-right: 40px;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .dowload-btn:hover {
@@ -30,7 +30,7 @@ body {
 .header {
   background-image: url(../src/img/backgroundMain.png);
   background-repeat: no-repeat;
-  height: 800px;
+  height: 700px;
 }
 
 .footer {
@@ -45,13 +45,14 @@ body {
 .container-page {
   width: 1370.5px;
   margin-left: 170px;
-  background-color: #f3e8e8;
+  background-color: white;
 }
 
 .section-container .sub-bg-orange {
   z-index: -10;
   position: relative;
   bottom: 538px;
+  background-color: white;
 }
 
 .section-container .header-element {
@@ -136,6 +137,7 @@ body {
 
 .create-section {
   width: 1370.5px;
+  margin-top: 90px;
   height: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -152,26 +154,26 @@ body {
           align-items: center;
 }
 
-.create-section .text-content {
-  width: 472px;
+.create-section .text-content-create-section {
+  width: 450px;
 }
 
-.create-section .text-content .sub-title-text {
+.create-section .text-content-create-section .sub-title-text {
   font-size: 16px;
   margin-top: 16px;
   color: #202249;
 }
 
-.create-section .text-content .title-text {
+.create-section .text-content-create-section .title-text {
   font-size: 48px;
   margin-top: 16px;
-  color: #C93030;
+  color: #c93030;
 }
 
-.create-section .text-content .description-text {
+.create-section .text-content-create-section .description-text {
   font-size: 18px;
   margin-top: 16px;
-  color: #C93030;
+  color: #c93030;
 }
 
 .create-section .img-content {
@@ -220,7 +222,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 
 .section-feature .text-content {
@@ -297,16 +299,16 @@ body {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 
 .section-feature .feature-container .feature-col .feature-item-container .title-text {
   margin-top: 15px;
   color: #7c5858;
-  font-family: 'Man';
+  font-family: "Man";
   line-height: 32px;
   font-weight: 700;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 
 .section-feature .feature-container .feature-col .feature-item-container .feature-item-icon {
