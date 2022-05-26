@@ -43,7 +43,7 @@ function FeatureItem(props) {
   const { icon, title, descriptionText } = props;
   return (
     <div class="feature-item-container">
-      <img className="feature-item-icon" src={icon} />
+      <img className="feature-item-icon" src={icon} alt="img" />
       <h1 className="title-text">{title}</h1>
       <p className="description-text">{descriptionText}</p>
     </div>

@@ -36,18 +36,18 @@ class Header extends Component {
             <br />
             <Button content="Download Now" />
             <div className="app-icon">
-              <img className="appStore-icon" src={appStoreIcon} />
-              <img className="googlePlay-icon" src={googlePlayIcon} />
+              <img className="appStore-icon" src={appStoreIcon} alt="img"/>
+              <img className="googlePlay-icon" src={googlePlayIcon}alt="img" />
             </div>
           </div>
           <div className="img-content">
-            <img className="dot-icon" src={dotBackground} />
-            <img className="cycle-icon" src={yellowCycleIcon} />
-            <img className="main-img" src={twoPhone} />
+            <img className="dot-icon" src={dotBackground} alt="img"/>
+            <img className="cycle-icon" src={yellowCycleIcon} alt="img"/>
+            <img className="main-img" src={twoPhone} alt="img"/>
           </div>
         </div>
         {this.props.sectionType === "header" && (
-          <img className="sub-bg-orange" src={subBgOrange} />
+          <img className="sub-bg-orange" src={subBgOrange} alt="img"/>
         )}
       </div>
     );

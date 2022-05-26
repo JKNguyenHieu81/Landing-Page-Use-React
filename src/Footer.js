@@ -29,14 +29,14 @@ class Footer extends Component {
             <br />
             <Button content="Download Now" />
             <div className="app-icon">
-              <img className="appStore-icon" src={appStoreIcon} />
-              <img className="googlePlay-icon" src={googlePlayIcon} />
+              <img className="appStore-icon" src={appStoreIcon} alt="img"/>
+              <img className="googlePlay-icon" src={googlePlayIcon} alt="img"/>
             </div>
           </div>
           <div className="img-content">
-            <img className="cycle-icon" src={yellowCycleIcon} />
-            <img className="sub-bg-green-footer" src={iconCycleGreen} style={{zIndex: 10}}/>
-            <img className="main-img" src={footerImgVector} />
+            <img className="cycle-icon" src={yellowCycleIcon} alt="img"/>
+            <img className="sub-bg-green-footer" alt="img" src={iconCycleGreen} style={{zIndex: 10}}/>
+            <img className="main-img" src={footerImgVector} alt="img"/>
           </div>
         </div>
       </div>
