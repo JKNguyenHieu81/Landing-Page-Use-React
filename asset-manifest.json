@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/JKNguyenHieu81/Landing-Page-Use-React/static/css/main.4fce1793.css",
-    "main.js": "/JKNguyenHieu81/Landing-Page-Use-React/static/js/main.8b25df4e.js",
+    "main.css": "/JKNguyenHieu81/Landing-Page-Use-React/static/css/main.5941147d.css",
+    "main.js": "/JKNguyenHieu81/Landing-Page-Use-React/static/js/main.7adcb5ad.js",
     "static/media/footerImgVector.svg": "/JKNguyenHieu81/Landing-Page-Use-React/static/media/footerImgVector.79a68c59af42f883905f860ae49f8fdb.svg",
     "static/media/describeFirst.jpg": "/JKNguyenHieu81/Landing-Page-Use-React/static/media/describeFirst.2d9fbf7d1d4157c89cb0.jpg",
     "static/media/describeSecond.png": "/JKNguyenHieu81/Landing-Page-Use-React/static/media/describeSecond.077a7d5e9a105ae0e8f5.png",
@@ -30,11 +30,11 @@
     "static/media/emailMiniIcon.svg": "/JKNguyenHieu81/Landing-Page-Use-React/static/media/emailMiniIcon.7d5a8365978719ca6736367f244c802d.svg",
     "index.html": "/JKNguyenHieu81/Landing-Page-Use-React/index.html",
     "static/media/iconCycleGreen.svg": "/JKNguyenHieu81/Landing-Page-Use-React/static/media/iconCycleGreen.87acdef825d48710fe6f1b1922df1474.svg",
-    "main.4fce1793.css.map": "/JKNguyenHieu81/Landing-Page-Use-React/static/css/main.4fce1793.css.map",
-    "main.8b25df4e.js.map": "/JKNguyenHieu81/Landing-Page-Use-React/static/js/main.8b25df4e.js.map"
+    "main.5941147d.css.map": "/JKNguyenHieu81/Landing-Page-Use-React/static/css/main.5941147d.css.map",
+    "main.7adcb5ad.js.map": "/JKNguyenHieu81/Landing-Page-Use-React/static/js/main.7adcb5ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fce1793.css",
-    "static/js/main.8b25df4e.js"
+    "static/css/main.5941147d.css",
+    "static/js/main.7adcb5ad.js"
   ]
 }
