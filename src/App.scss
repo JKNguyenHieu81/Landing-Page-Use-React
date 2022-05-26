@@ -38,8 +38,14 @@ body {
   height: auto;
 
 }
-.section-container {
+
+.container-page{
   width: 1370.5px;
+  margin-left: 170px;
+  background-color: rgb(243, 232, 232);
+}
+
+.section-container {
   .sub-bg-orange {
     z-index: -10;
     position: relative;

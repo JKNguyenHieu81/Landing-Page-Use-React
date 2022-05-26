@@ -40,6 +40,10 @@ class Footer extends Component {
             <img className="main-img" src={this.props.mainImg} />
           </div>
         </div>
+        {/* <div className="infomation-author" style={{display: 'flex', justifyContent: 'space-around'}}>
+          <p className="author-name" style={{fontSize: '24px', color: 'white'}}>Made by Hieu and Tuan</p>
+          <a href="https://www.facebook.com/BuildersVN/" className="link-profile" style={{textDecoration: 'none', color: 'wheat'}}>Builders_UniVN</a>
+        </div> */}
       </div>
     );
   }
