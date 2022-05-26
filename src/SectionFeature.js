@@ -1,16 +1,12 @@
 import { Component } from "react";
 import { SectionText } from "./SectionStore";
 class SectionFeature extends Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     let {
       subTitleText,
       titleText,
       descriptionText,
       featureList,
-      backgroundImg,
     } = this.props;
     const featureItems = featureList.map((item, index) => (
       <FeatureItem

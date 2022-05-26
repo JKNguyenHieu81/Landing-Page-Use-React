@@ -25,13 +25,13 @@ class Header extends Component {
           <div className="text-content" style={{ color: "white" }}>
             <h1 className="title-content">
               Sell Digital <br /> Product the <br /> easy-peasy way
-            </h1>{" "}
+            </h1>
             <br />
             <p className="sub-title">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               maximus ut risus id malesuada. Etiam feugiat dolor commodo
               imperdiet sodales.
-            </p>{" "}
+            </p>
             <br />
             <Button content="Download Now" />
             <div className="app-icon">
