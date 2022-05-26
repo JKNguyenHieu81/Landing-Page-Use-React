@@ -10,7 +10,7 @@ import describeThirdImg from "./img/describeThirdImg.jpg";
 import SectionTestimonial from "./SectionTestimonial";
 import Footer from "./Footer";
 import Header from "./Header";
-import footerImgVector from "./img/footerImgVector.svg";
+
 class HomePage extends React.Component {
   render() {
     return (
@@ -41,7 +41,7 @@ class HomePage extends React.Component {
             backgroundImg={describeThirdImg}
           />
           <SectionTestimonial />
-          <Footer/>
+          <Footer />
         </div>
       </>
     );
