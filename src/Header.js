@@ -2,7 +2,6 @@ import { Component } from "react";
 import React from "react";
 import appStoreIcon from "./img/appStoreIcon.svg";
 import googlePlayIcon from "./img/googlePlayIcon.svg";
-import twoPhone from "./img/twoPhone.png";
 import yellowCycleIcon from "./img/yellowCycleIcon.svg";
 import dotBackground from "./img/dotBackground.svg";
 import subBgOrange from "./img/subBgOrange.png";
@@ -13,7 +12,7 @@ class Header extends Component {
     return (
       <div
         className={
-          this.props.sectionType == "header"
+          this.props.sectionType === "header"
             ? "section-container header"
             : "section-container footer"
         }

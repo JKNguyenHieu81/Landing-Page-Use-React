@@ -41,7 +41,7 @@ class HomePage extends React.Component {
             backgroundImg={describeThirdImg}
           />
           <SectionTestimonial />
-          <Footer mainImg={footerImgVector} />
+          <Footer/>
         </div>
       </>
     );
