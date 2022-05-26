@@ -64,11 +64,13 @@ body {
 
 .section-container .header-element .brand-name {
   font-size: 18px;
-  color: #ffffff;
   margin-left: 40px;
   width: 150px;
-  height: 30px;
-  background-color: #376b68;
+  height: 40px;
+  background-color: #3abbb3;
+  padding-top: 8px;
+  padding-left: 5px;
+  border-radius: 10px;
 }
 
 .content-section {

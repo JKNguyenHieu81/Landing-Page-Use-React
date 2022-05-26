@@ -19,7 +19,7 @@ class Header extends Component {
         }
       >
         <div className="header-element">
-          <h2></h2>
+          <h2 className="brand-name" style={{ color: 'white'}}>『J』『Y』『K』</h2>
           {this.props.sectionType === "header" && <Button content="Download" />}
         </div>
         <div className="content-section">
