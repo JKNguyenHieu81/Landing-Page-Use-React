@@ -307,3 +307,15 @@ body {
     }
   }
 }
+
+
+@media (min-width: 1208px) {
+  .container-page {
+    width: 1360.5px;
+    margin-left: 260px;
+    .sub-bg-orange {
+      width: 1360.5px;
+      bottom: 536px;
+    }
+  }
+}
